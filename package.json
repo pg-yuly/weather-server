@@ -1,0 +1,29 @@
+{
+  "name": "weather-mcp-server",
+  "version": "1.0.0",
+  "description": "基于天气API的MCP服务",
+  "main": "weather-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node weather-server.js",
+    "dev": "nodemon weather-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "weather",
+    "ai",
+    "claude",
+    "cline",
+    "meizu"
+  ],
+  "author": "yuly",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
